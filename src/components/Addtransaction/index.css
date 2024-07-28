@@ -1,0 +1,82 @@
+.add-transaction-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.add-transaction-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    background-color: #f9f9f9;
+}
+
+.add-transaction-form label {
+    margin: 10px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: #333;
+}
+
+.add-transaction-form input,
+.add-transaction-form select {
+    width: 60%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.save-button {
+    margin: 10px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.save-button:hover {
+    background-color: #238b28;
+}
+
+.add-transaction-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+.cancel-button{
+    margin: 10px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #af634c;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.cancel-button:hover {
+    background-color: #862b1f;
+}
+.add-transaction-buttons-container{
+    align-self: flex-end;
+    margin-top: 20px;
+}
