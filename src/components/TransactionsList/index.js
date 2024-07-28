@@ -11,7 +11,7 @@ const TransactionsList = () => {
 
   const fetchTransactions = async () => {
     try {
-      const response = await fetch('http://localhost:5000/api/transactions');
+      const response = await fetch(process.env.REACT_APP_BACKEND_URL + '/api/transactions');
       const data = await response.json();
       console.log(data.transactions);
       setTransactions(data.transactions.reverse());

@@ -12,7 +12,7 @@ const AddTransaction = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      const response = await fetch('http://localhost:5000/api/transactions', {
+      const response = await fetch(process.env.REACT_APP_BACKEND_URL + '/api/transactions', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
